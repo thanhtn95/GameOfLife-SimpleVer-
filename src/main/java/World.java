@@ -63,6 +63,7 @@ public class World {
                 if (world[tmpX][tmpY] == 1) {
                     count++;
                 }
+                if (count>3) return count;
             }
         }
         return count;
